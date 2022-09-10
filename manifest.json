@@ -3,7 +3,7 @@
   "description": "Copies the Notion pages' ID into clipboard",
   "version": "0.6.2",
   "manifest_version": 3,
-  "permissions": [],
+  "permissions": ["tabs"],
   "icons": {
     "16": "/images/16-icon.png",
     "32": "/images/32-icon.png",
