@@ -14,11 +14,11 @@
 //   });  
 // });
 
-const extensions = 'https://developer.chrome.com/docs/extensions'
-const webstore = 'https://developer.chrome.com/docs/webstore'
+// const extensions = 'https://developer.chrome.com/docs/extensions'
+// const webstore = 'https://developer.chrome.com/docs/webstore'
 
 
-chrome.tabs.onActivated.addListener(function(activeInfo) {
-    console.log(activeInfo);
-    console.log(chrome.tabs);
-});
+// chrome.tabs.onActivated.addListener(function(activeInfo) {
+//     console.log(activeInfo);
+//     console.log(chrome.tabs);
+// });

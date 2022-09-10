@@ -14,7 +14,7 @@ document.addEventListener('DOMContentLoaded', function() {
       if (host.endsWith("notion.so")) {
         let path = url.pathname
         let pageId = extractId(path)
-        alert("ID Copied! " + pageId)  
+        alert("ID Copied! \"" + pageId + "\"")  
         copyTextToClipboard(pageId)
       } else {
         alert("Not a valid Notion page!")
