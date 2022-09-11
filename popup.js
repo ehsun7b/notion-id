@@ -28,7 +28,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
 function extractId(path) {
   let pageNameAndId = path.substring(path.lastIndexOf("/") + 1)
-  return pageNameAndId.substring(path.lastIndexOf("_") + 1)
+  return pageNameAndId.substring(path.lastIndexOf("-") + 1)
 }
 
 function copyTextToClipboard(text) {
