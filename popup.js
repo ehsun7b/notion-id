@@ -27,7 +27,7 @@ document.addEventListener('DOMContentLoaded', function() {
 });
 
 function extractId(path) {
-  val pageNameAndId = path.substring(path.lastIndexOf("/") + 1)
+  let pageNameAndId = path.substring(path.lastIndexOf("/") + 1)
   return pageNameAndId.substring(path.lastIndexOf("_") + 1)
 }
 
