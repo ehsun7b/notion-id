@@ -27,7 +27,8 @@ document.addEventListener('DOMContentLoaded', function() {
 });
 
 function extractId(path) {
-  return path.substring(path.lastIndexOf("_") + 1)
+  val pageNameAndId = path.substring(path.lastIndexOf("/") + 1)
+  return pageNameAndId.substring(path.lastIndexOf("_") + 1)
 }
 
 function copyTextToClipboard(text) {
